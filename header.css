@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 2;
+}
+.head-menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 15px;
+    color: #42464f;
+    font-size: 16px;
+    font-weight: 500;
+}
+.active{
+    color: #42b773 !important;
+}
+.head-menu a:hover{
+    color: #42b773;
+    transition: .3s;
+}

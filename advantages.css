@@ -1,0 +1,62 @@
+.advantages{
+    background-image: url('../../images/adv-bg.jpeg');
+    background-position:center;
+    padding: 120px 0;
+    position: relative;
+}
+.adv-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.adv-item{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.adv-item i{
+    color: #fff;
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+.adv-item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.adv-item p{
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.adv-item a:hover{
+    color: #42b773;
+    text-decoration: underline;
+    transition: .3s;
+}
+.advantages::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 157px;
+    height: 68px;
+    background-image: url('../../images/top-grey.png');
+    margin: 0 auto;
+}
+.advantages::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 157px;
+    height: 68px;
+    background-image: url('../../images/bottom_white.png');
+    margin: 0 auto;
+}
